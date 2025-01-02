@@ -1,0 +1,144 @@
+{
+  "streaming_formats": [
+    {
+      "format": "amr-wb-16000hz",
+      "description": "AMR-WB (Adaptive Multi-Rate Wideband) codec, 16 kHz sample rate.",
+      "use_case": "Optimized for voice transmission over low-bandwidth networks."
+    },
+    {
+      "format": "audio-16khz-16bit-32kbps-mono-opus",
+      "description": "Opus codec with 16 kHz sample rate, 16-bit depth, and 32 kbps bitrate.",
+      "use_case": "Efficient, low-bitrate audio for speech applications."
+    },
+    {
+      "format": "audio-16khz-32kbitrate-mono-mp3",
+      "description": "MP3 codec with 16 kHz sample rate and 32 kbps bitrate.",
+      "use_case": "Low-quality, fast transmission for basic speech needs."
+    },
+    {
+      "format": "audio-16khz-64kbitrate-mono-mp3",
+      "description": "MP3 codec with 16 kHz sample rate and 64 kbps bitrate.",
+      "use_case": "Improved quality for speech applications."
+    },
+    {
+      "format": "audio-16khz-128kbitrate-mono-mp3",
+      "description": "MP3 codec with 16 kHz sample rate and 128 kbps bitrate.",
+      "use_case": "Good-quality audio for speech and simple media playback."
+    },
+    {
+      "format": "audio-24khz-16bit-24kbps-mono-opus",
+      "description": "Opus codec with 24 kHz sample rate, 16-bit depth, and 24 kbps bitrate.",
+      "use_case": "Low-bitrate, high-quality audio for speech."
+    },
+    {
+      "format": "audio-24khz-16bit-48kbps-mono-opus",
+      "description": "Opus codec with 24 kHz sample rate, 16-bit depth, and 48 kbps bitrate.",
+      "use_case": "Efficient encoding for high-quality voice applications."
+    },
+    {
+      "format": "audio-24khz-48kbitrate-mono-mp3",
+      "description": "MP3 codec with 24 kHz sample rate and 48 kbps bitrate.",
+      "use_case": "Moderate-quality audio for speech applications."
+    },
+    {
+      "format": "audio-24khz-96kbitrate-mono-mp3",
+      "description": "MP3 codec with 24 kHz sample rate and 96 kbps bitrate.",
+      "use_case": "Good-quality audio for speech and simple music playback."
+    },
+    {
+      "format": "audio-24khz-160kbitrate-mono-mp3",
+      "description": "MP3 codec with 24 kHz sample rate and 160 kbps bitrate.",
+      "use_case": "High-quality audio for speech and media."
+    },
+    {
+      "format": "audio-48khz-96kbitrate-mono-mp3",
+      "description": "MP3 codec with 48 kHz sample rate and 96 kbps bitrate.",
+      "use_case": "High-fidelity speech and basic music playback."
+    },
+    {
+      "format": "audio-48khz-192kbitrate-mono-mp3",
+      "description": "MP3 codec with 48 kHz sample rate and 192 kbps bitrate.",
+      "use_case": "Excellent-quality audio for speech and media."
+    },
+    {
+      "format": "ogg-16khz-16bit-mono-opus",
+      "description": "Ogg container with Opus codec, 16 kHz sample rate and 16-bit depth.",
+      "use_case": "Low-latency, efficient speech streaming."
+    },
+    {
+      "format": "ogg-24khz-16bit-mono-opus",
+      "description": "Ogg container with Opus codec, 24 kHz sample rate and 16-bit depth.",
+      "use_case": "High-quality audio for streaming speech and voice applications."
+    },
+    {
+      "format": "ogg-48khz-16bit-mono-opus",
+      "description": "Ogg container with Opus codec, 48 kHz sample rate and 16-bit depth.",
+      "use_case": "High-fidelity streaming for media applications."
+    },
+    {
+      "format": "raw-8khz-8bit-mono-alaw",
+      "description": "Raw audio with A-law encoding, 8 kHz sample rate and 8-bit depth.",
+      "use_case": "Low-quality telephony systems."
+    },
+    {
+      "format": "raw-8khz-8bit-mono-mulaw",
+      "description": "Raw audio with μ-law encoding, 8 kHz sample rate and 8-bit depth.",
+      "use_case": "Low-quality telephony systems."
+    },
+    {
+      "format": "raw-8khz-16bit-mono-pcm",
+      "description": "Raw audio with PCM encoding, 8 kHz sample rate and 16-bit depth.",
+      "use_case": "Better telephony or speech recognition systems."
+    },
+    {
+      "format": "raw-16khz-16bit-mono-pcm",
+      "description": "Raw audio with PCM encoding, 16 kHz sample rate and 16-bit depth.",
+      "use_case": "Good-quality audio for speech applications."
+    },
+    {
+      "format": "raw-16khz-16bit-mono-truesilk",
+      "description": "Raw audio with TrueSilk encoding, 16 kHz sample rate and 16-bit depth.",
+      "use_case": "Efficient encoding for speech clarity."
+    },
+    {
+      "format": "raw-22050hz-16bit-mono-pcm",
+      "description": "Raw audio with PCM encoding, 22.05 kHz sample rate and 16-bit depth.",
+      "use_case": "Balanced-quality audio for speech applications."
+    },
+    {
+      "format": "raw-24khz-16bit-mono-pcm",
+      "description": "Raw audio with PCM encoding, 24 kHz sample rate and 16-bit depth.",
+      "use_case": "Moderate-quality audio for speech applications."
+    },
+    {
+      "format": "raw-24khz-16bit-mono-truesilk",
+      "description": "Raw audio with TrueSilk encoding, 24 kHz sample rate and 16-bit depth.",
+      "use_case": "Efficient encoding for speech clarity."
+    },
+    {
+      "format": "raw-44100hz-16bit-mono-pcm",
+      "description": "Raw audio with PCM encoding, 44.1 kHz sample rate and 16-bit depth.",
+      "use_case": "High-fidelity speech and music."
+    },
+    {
+      "format": "raw-48khz-16bit-mono-pcm",
+      "description": "Raw audio with PCM encoding, 48 kHz sample rate and 16-bit depth.",
+      "use_case": "Professional-quality speech and media production."
+    },
+    {
+      "format": "webm-16khz-16bit-mono-opus",
+      "description": "WebM container with Opus codec, 16 kHz sample rate and 16-bit depth.",
+      "use_case": "Efficient streaming for low-bandwidth applications."
+    },
+    {
+      "format": "webm-24khz-16bit-24kbps-mono-opus",
+      "description": "WebM container with Opus codec, 24 kHz sample rate, 16-bit depth, and 24 kbps bitrate.",
+      "use_case": "Low-bitrate streaming with good quality."
+    },
+    {
+      "format": "webm-24khz-16bit-mono-opus",
+      "description": "WebM container with Opus codec, 24 kHz sample rate and 16-bit depth.",
+      "use_case": "High-quality streaming for speech and voice applications."
+    }
+  ]
+}
