@@ -1,0 +1,39 @@
+{
+  "non_streaming_formats": [
+    {
+      "format": "riff-8khz-8bit-mono-alaw",
+      "description": "RIFF container with A-law encoding, 8 kHz sample rate, 8-bit depth, and mono channel.",
+      "use_case": "Low-quality speech audio for telephony and voice prompts."
+    },
+    {
+      "format": "riff-8khz-8bit-mono-mulaw",
+      "description": "RIFF container with μ-law encoding, 8 kHz sample rate, 8-bit depth, and mono channel.",
+      "use_case": "Similar to A-law, primarily used in telephony systems."
+    },
+    {
+      "format": "riff-8khz-16bit-mono-pcm",
+      "description": "RIFF container with PCM encoding, 8 kHz sample rate, 16-bit depth, and mono channel.",
+      "use_case": "Better quality telephony or speech recognition systems."
+    },
+    {
+      "format": "riff-22050hz-16bit-mono-pcm",
+      "description": "RIFF container with PCM encoding, 22.05 kHz sample rate, 16-bit depth, and mono channel.",
+      "use_case": "Balanced quality and speed for speech-based applications."
+    },
+    {
+      "format": "riff-24khz-16bit-mono-pcm",
+      "description": "RIFF container with PCM encoding, 24 kHz sample rate, 16-bit depth, and mono channel.",
+      "use_case": "Higher quality speech applications requiring moderate fidelity."
+    },
+    {
+      "format": "riff-44100hz-16bit-mono-pcm",
+      "description": "RIFF container with PCM encoding, 44.1 kHz sample rate, 16-bit depth, and mono channel.",
+      "use_case": "CD-quality audio for applications needing high fidelity."
+    },
+    {
+      "format": "riff-48khz-16bit-mono-pcm",
+      "description": "RIFF container with PCM encoding, 48 kHz sample rate, 16-bit depth, and mono channel.",
+      "use_case": "High-quality audio for professional applications or media production."
+    }
+  ]
+}
